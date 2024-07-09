@@ -37,8 +37,9 @@
 .main .child .score .hit div {
     font-weight: 700;
   color: rgba(10, 112, 35, 0.952);
-  padding: 10px;
+  padding: 0 40px;
   background-color: white;
+  /*the catch here is that is when i give only padding to div without specifying the width height it takes the whole vertical space as i dont giving it width & height*/
   width: 40px;
   height: 30px;
   border-radius: 3px;

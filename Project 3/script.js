@@ -27,7 +27,7 @@ function generatHit() {
   htidiv.innerText = randomNumber;
 }
 function mytimer() {
-  let timer = 2;
+  let timer = 60;
 
   let id = setInterval(() => {
     if (timer >= 0) {
